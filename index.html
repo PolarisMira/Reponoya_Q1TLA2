@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="public/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <nav class="navbar-container white">
+
+            <div id="profile-container" class="center oxford-blue left-without-view">
+                <img src="public/images/pic.jpg" alt="profile" id="profile-pic">
+                <div><a href="index.html">Portfolio</a></div>
+            </div>
+
+            <div id="links-container" class="center oxford-blue right-without-view">
+                <div class="link center">
+                    <a href="about.html">About</a>
+                    <img src="public/svg/information-circle-svgrepo-com.svg" alt="" class="svg-link">
+                </div>
+                <div class="link center">
+                    <a href="accomplishment.html">Accomplishment</a>
+                    <img src="public/svg/achievement-svgrepo-com.svg" alt="" class="svg-link">
+                </div>
+                <div class="link center">
+                    <a href="cert.html">Certificates</a>
+                    <img src="public/svg/diploma-svgrepo-com.svg" alt="" class="svg-link">
+                </div>
+                <select id="select-links" class="hidden" onchange="location = this.value;">
+                    <option value="" class="select-link">Links</option>
+                    <option value="" class="select-link">Youtube</option>
+                </select>
+            </div>
+
+        </nav>
+
+        <section class="uic-logo">
+            <img src="public/images/uic-logo.png">
+
+        </section>
+
+        <section class="quote-container container">
+            <div id="main-quote" class="textwrite"><img src="public/svg/quote-a-right-svgrepo-com.svg" class="quote-svg"> Strive Beyond Excellence! <img src="public/svg/quote-a-left-svgrepo-com.svg" class="quote-svg"></div>
+            <div id="sub-quote" class="bottom-to-top"><i>I dont just aim for excellence. I strive to transcend it. In every service I provide, I go beyond what's expected</i></div>
+        </section>
+
+        <section class="info-container container">
+
+            <div id="personal-image">
+                <img src="public/images/infoImage.png" alt="info-image" id="info-image" class="left">
+            </div>
+
+            <div id="short-bio">
+                <h1 class="right">Joshua M. Reponoya</h1>
+                <p class="right">
+                    It started when I was young, I always love playing video games and watching youtube videos online.
+                    In time, it developed into a realization that one day, I want to become a software engineer.
+                    After watching a lot of professionals online, I've decided that I wanted to embark on the web development path
+                    since creating design, implementing them, and making them useful and functional was something I thought was pretty cool.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="skills-container container">
+            <div class="skill-box box-1 left">
+                <div class="upper-background upper-1">
+                    <div class="skill-logo java"><img src="public/images/java-logo.png" alt=""></div>
+                    <div class="skill-title">Java Developer</div>
+                </div>
+                <div class="skill-set">
+                    <ul class="skill-parent-list left">
+                        <li class="skill-item">Basic Java</li>
+                        <li class="skill-item">OOP</li>
+                        <li class="skill-item">Advanace Java</li>
+                        <li class="skill-item">Hibernate</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skill-box box-2">
+                <div class="upper-background upper-2">
+                    <div class="skill-logo html"><img src="public/images/html-logo.png" alt=""></div>
+                    <div class="skill-title">Front-End Developer</div>
+                </div>
+                <div class="skill-set">
+                    <ul class="skill-parent-list">
+                        <li class="skill-item">HTML</li>
+                        <li class="skill-item">CSS</li>
+                        <li class="skill-item">JavaScript</li>
+                        <li class="skill-item">EJS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skill-box box-3 right">
+                <div class="upper-background upper-3">
+                    <div class="skill-logo node"><img src="public/images/back-end-logo.png" alt=""></div>
+                    <div class="skill-title">Back-End Developer</div>
+                </div>
+                <div class="skill-set">
+                    <ul class="skill-parent-list right">
+                        <li class="skill-item">NodeJS</li>
+                        <li class="skill-item">Express.JS</li>
+                        <li class="skill-item">MySQL</li>
+                        <li class="skill-item">PostgresSQL</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-container">
+            <div class="project-container container movazon">
+                <div class="project-image ">
+                    <img src="public/images/Movazon.png" alt="">
+                </div>
+                <div class="project-name">
+                    Movazon
+                </div>
+                <div class="project-description">
+                    This is a website that is insipired by amazon. It is a coding challegenge that I
+                    completed for one of the courses I took on udemy. Essentially, it's about a online
+                    page for people who want move their belongings.
+                </div>
+            </div>
+            <div class="project-container container tindawg">
+                <div class="project-image ">
+                    <img src="public/images/TinDawg.png" alt="">
+                </div>
+                <div class="project-name">
+                    TinDawg
+                </div>
+                <div class="project-description">
+                    This is a website designed to connect dogs with other dogs the same way tinder connects people with other people. Basically it's a tinder but for your pet dogs or other animals
+                </div>
+            </div>
+            <div class="project-container container pig-game">
+                <div class="project-image">
+                    <img src="public/images/PigGame.png" alt="">
+                </div>
+                <div class="project-name">
+                    PigGame
+                </div>
+                <div class="project-description">
+                    This is a game that I've created using HMTL, CSS, and Javascript. Essentially,
+                    it's main focus is using DOM manipulation or jQuery in order to make the buttons,
+                    as well as the contents dynamic.
+                </div>
+            </div>
+        </section>
+
+        <footer class="copyright">
+            ©copyright 2025
+        </footer>
+
+    </body>
+
+</html>
