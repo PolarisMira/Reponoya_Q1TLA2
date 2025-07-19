@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="public/style.css">
+        <link rel="stylesheet" href="public/pages.css">
+    </head>
+
+    <body>
+    
+    <nav class="navbar-container white">
+
+            <div id="profile-container" class="center oxford-blue left-without-view">
+                <img src="public/images/pic.jpg" alt="profile" id="profile-pic">
+                <div><a href="index.html">Portfolio</a></div>
+            </div>
+
+            <div id="links-container" class="center oxford-blue right-without-view">
+                <div class="link center">
+                    <a href="about.html">About</a>
+                    <img src="public/svg/information-circle-svgrepo-com.svg" alt="" class="svg-link">
+                </div>
+                <div class="link center">
+                    <a href="accomplishment.html">Accomplishment</a>
+                    <img src="public/svg/achievement-svgrepo-com.svg" alt="" class="svg-link">
+                </div>
+                <div class="link center">
+                    <a href="cert.html">Certificates</a>
+                    <img src="public/svg/diploma-svgrepo-com.svg" alt="" class="svg-link">
+                </div>
+                <select id="select-links" class="hidden" onchange="location = this.value;">
+                    <option value="" class="select-link">Links</option>
+                    <option value="" class="select-link">Youtube</option>
+                </select>
+            </div>
+
+        </nav>
+
+        <section class="cert-container">
+
+            <div>
+                <h1 class="bottom-to-top textwrite">Certificates</h1>
+            </div>
+            <div class="bottom-to-top acomp-text">
+                <h2 class="textwrite">Udemy</h2>
+                <p>
+                    Certificate of Completing Data Structures and Algorithm in Java
+                </p>
+                <p>
+                    Certificate of Completing MySQL Course
+                </p>
+                <br>
+                <h2 class="textwrite">Coursera</h2>
+                <p>
+                    Certificate of Completing Machine Learning and AI
+                </p>
+                <br>
+                <h2 class="textwrite">School</h2>
+                <p>
+                    Certificate of 2ND Honor
+                </p>
+                <p>
+                    Certificate of 3RD Place Programming Quiz Bowl
+                </p>
+            </div>
+        </section>
+
+    </body>
+
+</html>
