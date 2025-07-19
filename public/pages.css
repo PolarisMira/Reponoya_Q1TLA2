@@ -1,4 +1,4 @@
-.about-container, .acomp-container {
+.about-container, .acomp-container, .cert-container {
     margin-top: 10vh;
     padding: 5rem 5rem 15rem 5rem;
     display: flex;
@@ -19,15 +19,16 @@
     line-height: 1.4;
 }
 
-.about-container h1, .acomp-container h1 {
+.about-container h1, .acomp-container h1, .cert-container h1 {
     font-size: 3rem;
     color: rgb(118, 158, 233);
 }
 
-.acomp-container h2 {
+.acomp-container h2, .cert-container h2 {
+    color: blue;
     font-size: 3rem;
 }
 
-.about-container, .acomp-container p {
+.about-container p, .acomp-container p, .cert-container p{
     font-size: 2rem;
 }
