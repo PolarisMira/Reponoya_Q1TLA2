@@ -197,6 +197,39 @@ a {
     font-family: "Edu NSW ACT Cursive", cursive;
 }
 
+@media (max-width : 906px) {
+
+    #main-quote {
+        font-size: 3.1rem;
+    }
+
+    #short-bio {
+        width: 100%;
+    }
+}
+
+@media (max-width : 716px) {
+
+    #main-quote {
+        font-size: 2.1rem;
+    }
+
+    #sub-quote {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width : 494px) {
+
+    #main-quote {
+        font-size: 1.2rem;
+    }
+
+    #short-bio {
+        font-size: 1.1rem;
+    }
+}
+
 /* ----------------------------------------- */
 
 /* ---------- Info Container -------------- */
@@ -237,38 +270,24 @@ a {
     min-width: 400px;
 }
 
-@media (max-width : 906px) {
+@media (max-width: 520px) {
 
-    #main-quote {
-        font-size: 3.1rem;
+    #personal-image {
+        width: 20%;
+        min-width: 200px;
     }
 
     #short-bio {
-        width: 100%;
-    }
-}
-
-@media (max-width : 716px) {
-
-    #main-quote {
-        font-size: 2.1rem;
-    }
-
-    #sub-quote {
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width : 494px) {
-
-    #main-quote {
-        font-size: 1.2rem;
-    }
-
-    #sub-quote {
         font-size: 1rem;
     }
+
+    #short-bio {
+        width: 80%;
+        font-size: .8rem;
+        padding: 1rem;
+    }
 }
+
 /* ----------------------------------------- */
 
 
@@ -277,12 +296,15 @@ a {
 
 .skills-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    gap: 2rem;
 }
 
 .skill-box {
     width: 25%;
+    min-width: 200px;
     min-height: 60vh;
     background-color: rgba(255, 255, 255, 0.025);
     padding: 2rem;
